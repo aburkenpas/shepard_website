@@ -1,7 +1,7 @@
 /*body{ background-color: #fff; margin:0px; padding:0px 0px 0px 0px;}*/
 body{ background-color: #fff; margin:0px; padding:0px 0px 0px 0px;position: relative;margin-bottom: 40px;font-size:100%;}
 
-.headerHome{  background: url("../images/bodybg.png") no-repeat scroll 20% 3px ;} /*#f6f6f6*/
+.headerHome{  background: url("../images/bodybg.png") no-repeat scroll 19% 3px ; background-size: 22% auto;} /*#f6f6f6*/
 
 form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dl{margin:0;padding:0;}
 
@@ -100,15 +100,22 @@ a:hover {text-decoration:none;}
 .header_right { width:100%; }
 .order_online { width:45%; float:left;padding-left:2px;/* text-align:center; */}
 .cart_amount{ max-width:55%; float:right; position: relative;}
-.order_online img {  max-width:98%; }
+.order_online img {  max-width:98%; padding-left: 7px;}
 .cart_amount  img {  max-width:98%;float:right; }
-.cart_amount .cart_count{position: absolute; right: 10%; top: 30%; font-size: 1em; color: white;}
+.cart_amount .cart_count{position: absolute; right: 10%; top: 34%; font-size: 1em; color: white; font-family: arial;}
 .cart_amount .order_now{ max-width:50%;float:left;}
 .cart_amount .order_cart{ max-width:50%;}/*float:left;*/
-.card p {    clear: both;color: #999c9d; font: 15.5px  Arial; margin: 0; padding: 10px 0px 6px 32px; text-align: center;}
+.card p {    clear: both;color: #999c9d; font: 15.5px  Arial; margin: 0; padding: 10px 0px 6px 0px; text-align: center;}
 .header_bottom { width:100%; background:#03405f;border-top:4px solid #eaeaea; }
 .product_main .header_bottom {height:130px;border-bottom: 4px solid #eaeaea;border-top:4px solid #eaeaea;}
 
+.logo_2 img {
+    width: 93%;
+}
+.welcome h4 {
+    font-style: italic !important;
+    padding-top: 15px;
+}
 .header_bottominner { width:96%;max-width:1024px;margin: 0 auto; /* border-top: 3px solid #ccc; */}
 .header_bottominner .banner{ width:100%; float:left;padding-left:8px;}
 .header_bottominner .profile{ width:100%; float:right;}
@@ -123,14 +130,15 @@ a:hover {text-decoration:none;}
 .welcome h5 { font:19px  Arial; color:#fff; text-align:right; margin-bottom:10px;}
 .welcome .login{color:#0079c1;}
 .wel_button { margin-bottom: 20px;padding-left: 15px;/*margin-left: 15px; -webkit-margin-start:15px;-moz-margin-start:15px;*/}
-.wel_button a{ background: none repeat scroll 0 0 #0079c1; border-radius: 3px; color: #fff; display: block; float: left; font: 0.9em  Arial;font-weight:bold;
-               margin-bottom: 5px;  padding: 7px 6px; text-align: center; margin-right:10px; }
+.wel_button a{ background: none repeat scroll 0 0 #0079c1; border-radius: 3px; color: #fff; display: block; float: left; font: 0.9em  Arial;
+               margin-bottom: 5px;  padding: 7px 9px; text-align: center; margin-right:10px; }
+.wel_button a:hover {color: #0079c1; background: none repeat scroll 0 0 #fff;}
 .wel_button a:hover { text-decoration:none;}
 .wel_button a:last-child { margin:0px;}
-.logout label {font:13px/35px  Arial; color:#fff; margin: 0 7px 0 0; }
+.logout label {font:13px/35px  Arial; color:#fff; margin: 0 0 0 7px; }
 .logout { width:100%;}
-.logout a {  border: 2px solid #0079c1; border-radius:7px;display: block; float: right; padding: 6px 12px; text-align:center; color:#0079c1;margin-bottom:10px;font-weight:bold;font-family: arial;font-size:13px;}
-
+.logout a {  border: 2px solid #0079c1; border-radius:7px;display: block; float: right; padding: 6px 12px; text-align:center; color:#0079c1;margin-top:3px;font-weight:bold;font-family: arial;font-size:13px;}
+.logout a:hover {color: #03405f; border: 2px solid #03405f; background: #0079c1; }
 
 #nav-trigger {display: none;text-align: center; }
 #nav-trigger span {display: inline-block; padding: 10px 30px; background-color: #0079c1;color: white;cursor: pointer;text-transform: uppercase; }
@@ -151,7 +159,7 @@ nav#nav-main {padding: 10px 0; }
 nav#nav-main ul {list-style-type: none; margin: 0;padding: 0; text-align:center; }
 nav#nav-main li {display: inline-block;background: url("../images/liborder.png") no-repeat left center;margin-left: -6px; /*padding-right:3px;*/ }
 nav#nav-main li:last-child { border-right: none; }
-nav#nav-main a {display: block;color: #5f6060; padding:0;font:18px arial; text-transform:capitalize; padding: 7px 20px 7px 23px; border-radius: 4px; }/*  padding: 7px 20px 7px 23px;font-weight:bold*/
+nav#nav-main a {display: block;color: #5f6060; padding:0;font:15px arial; text-transform:capitalize; padding: 8px 20px 6px 23px; border-radius: 4px; }/*  padding: 7px 20px 7px 23px;font-weight:bold*/
 nav#nav-main a:hover {background-color: #0079c1;color: #fff; text-decoration:none; }
 nav#nav-main a.bg_image:hover {background-color: #0079c1;color: #fff; text-decoration:none; }
 .menu ul li a.bg_image:hover {background-color: #0079c1;color: #fff; text-decoration:none; }
@@ -182,19 +190,28 @@ nav#nav-mobile {display: block; }
 .menu { display:inline-block; width:100%; border-bottom:4px solid #eaeaea;border-top:4px solid #eaeaea;}
 .menu ul li a.bg_image {background:url(../images/menu_img.png) no-repeat 0px 11px ; display:block; text-indent:-999em; width:110px; height:35px;
                        margin-left: 10px;/*margin:0 auto;*/}
-.menu ul li a.bg_image:hover {background:url(../images/menu_img.png) no-repeat 0px 0px ;}
-.welcome_inner { width:100%;  padding-top: 15px; margin-bottom:20px;}
+.menu ul li a.bg_image:hover {background:url(../images/menu_img_hover.png) no-repeat 0px 11px ;}
+.welcome_inner { width:98%;  padding-top: 23px; margin-bottom:20px;}
 .welcome_inner h1 {font:bold 25px Arial ; color:#0079c2 ; }
-.welcome_inner p {font:13px arial; color:#525252 ; }
+.welcome_inner p {font:13.5px arial; color:#525252 ; }
 .information_details {  margin: 0 auto;width: 95%;max-width:1024px; }
 .chart img {   margin: 0 10px 0 0; }
 .informationdetails { width:100%; margin-bottom: 35px;}
-.welcome_left{width:70%;float:left;}
+.welcome_left{width:60%;float:left;margin-top: 7px;}
 .welcome_left p{font-weight: bold;}
-.welcome_right{width:28%;float: right;}
+.welcome_right{width:40%;float: right;}
+.welcome_right  img{ margin: 0 3px;float: left;}
+.chat img {
+    width: 63%;
+    height: auto;
+}
+.contact img {
+    margin-top: 3px;
+    width: 32%;
+    height: auto;
+}
 
-.welcome_right  img{ margin:5px;float: left;}
-.welcome_right .chat img, .welcome_right .contact img{ height:40px;}
+
 
 .bg_image:hover {
     background-color: #0079c1;
@@ -203,34 +220,35 @@ nav#nav-mobile {display: block; }
 .informationdetails .information,.informationdetails .details{ width:48%;float:left;margin-right:1%;}
 .informationdetails .details h1,.informationdetails .details   div{padding-left:15px;}
 .informationdetails .details   div div{padding-left:0px;}
-.new_infromation{ background:#ebebeb ;padding: 30px;  border-radius: 5px;   margin-bottom: 25px;}
+.new_infromation{ background:#ebebeb ;padding: 20px 30px 40px 30px;  border-radius: 5px;   margin-bottom: 25px;}
 .new_infromation h1 {font:25px arial; color:#0079c1;margin:0px;  margin: 0 0 10px;}
 .new_infromation p{font:14px arial; color:#03405f; margin-bottom:20px; text-align:justify;}
 .shipping_information { }
 .padding {padding:0px;}
-.shipping_top { border-left:1px solid #dddddd ;border-right:1px solid #dddddd ;border-top:1px solid #dddddd ;border-radius: 10px 10px 0 0;padding: 20px 25px 15px;}
-.shipping_top h3 {font:25px arial; color:#a4cd39 ; margin-bottom:30px; }
+.shipping_top {padding: 20px 19px 15px;}
+.shipping_info_container {border: 3px solid #ECECEC; border-radius: 10px 10px 0 0; border-bottom: none;}
+.shipping_top h3 {font:25px arial; color:#a4cd39 ; margin-bottom:19px; }
 .margin-bottom { margin-bottom:20px;}
 .shippinglist_left{ width:49%;float:left;padding-left: 20px;/* margin-right: -10px; */}
 .shippinglist_right{ width:49%;float:right;}
-.shippinglist_left h1{font:bold 18px Arial ; color:#525252 ; margin-bottom:10px; }
-.shippinglist_left  h3 { font:15px arial; color:#0079c1 ;}
-.shippinglist_left  h4 { font:15px Arial; color:#525252 ;}
-.shippinglist_left  h5 { font:15px Arial; color:#525252;}
-.shipping_list  { padding-right: 0; padding-top: 40px; border-left:1px solid #d5d4d4;border-right:1px solid #d5d4d4;
+.shippinglist_left h1{font:bold 18px Arial ; color:#525252 ; margin-bottom:6px; }
+.shippinglist_left  h3 { font:14px arial; color:#0079c1 ;}
+.shippinglist_left  h4 { font:14px Arial; color:#525252 ;}
+.shippinglist_left  h5 { font:14px Arial; color:#525252;}
+.shipping_list  { padding-right: 0; padding-top: 40px; 
                   } /* border-bottom:1px solid #d5d4d4;border-radius: 0 0 5px 5px;*/
-.shippinglist_right h4 { font:bold 15px arial; color:#fff; width:75%;  padding: 7px;}
+.shippinglist_right h4 { font: 15px arial; color:#fff; width:75%;  padding: 7px 15px;}
 .shippinglist_right .green  { background:#a4cd39 ;position: relative;border-radius: 10px 0 0 10px; margin-bottom: 25px;}
 .shippinglist_right .orange  { background:#f17020 ;position: relative;border-radius: 10px 0 0 10px; margin-bottom: 25px;}
 .shippinglist_right span.date {   background: none repeat scroll 0 0 #fff; border-radius: 5px 0 0 5px;color: #525252;float: right;font: bold 16px arial;padding: 5px 5px;
 position: absolute; right: 0;top: 55%; border:1px solid #e7e7e7;}
 .shippinglist_right { padding-right:0px;margin-top: 30px;}
 
-.details { border:1px solid #eeeeee;border-bottom: 0px; /*border-radius:7px;*/ }
+.details { border:3px solid #ececec;border-bottom: 0px; border-top-left-radius:7px; border-top-right-radius:7px; }
 .details h1 {font:25px arial; color:#a4cd39;   margin: 20px 0px; }
 .details h3 {font:16px arial; color:#525252; font-weight:bold;  margin-bottom: 10px;}
 .details h4 {font:18px arial; color:#0079c1;    margin-bottom: 15px;}
-.margin-border { border-bottom:1px solid #eaeaea ; margin-bottom:10px;}
+.margin-border { border-bottom:3px solid #ececec ; margin-bottom:10px;}
 
 
 .margin-border .time span.time_new {  font: 16px arial; color:#f17020;border-left: 1px solid #eaeaea;margin: 0 0 0 40px; padding: 0 15px;}
@@ -262,7 +280,7 @@ position: absolute; right: 0;top: 55%; border:1px solid #e7e7e7;}
 .product_header .logo { position:relative; width:230px;}
 .product_header .logo a { background:url(../images/header_newlogo.png) no-repeat left center;background-size: 75%;width : 85%;height:79px; display:block;
                           text-indent:-999em; position:absolute; top:-6px;} /*width:185px;*/
-.product_header h2 { font:bold 23px 'arialitalic' ; color:#0079c1; text-transform:capitalize;  padding-top: 17px; margin-right:45px; }
+.product_header h2 { font:bold 23px 'arial' ; font-style: italic; color:#0079c1; text-transform:capitalize;  padding-top: 17px; margin-right:45px; }
 .search_product label {font:17px 'arialitalic'; color:#999c9d ;text-transform:capitalize;   margin-right: 5px; }
 .search_product input { background: url("../images/search_icon.png") no-repeat scroll right top ; border:1px solid #bababa ;border-radius:3px; height:26px; padding:7px 10px;
                         width:200px;}
@@ -509,7 +527,7 @@ h4.blue2 { color:#004b7a ;}
    /*.cart_amount .cart_count{right:10%;}*/
    
     .product_header .logo a {background-size: 75%;width : 85%}
-     #dvshipping2 { float: left !important;padding-left:2px; }
+     #dvshipping2 { float: left !important;padding-left:10px; }
      .header .card {border: 1px solid #D2D2D2; }
     .header_right {width: 100%; }
     /*.shippinglist_left, .shippinglist_right {width: 90%;}
@@ -518,18 +536,18 @@ h4.blue2 { color:#004b7a ;}
 
 /* media Portrait (for tablet screen)*/
 @media screen and (min-width: 768px) {
-   .header .search{	 width:35%; padding-top:56px;float:left;margin-right:20px;margin-left:-20px;}
-   .header .search label{display:inline;}
-   .header_bottominner .banner{ width:82%;padding-left: 20px;margin-left: -20px;}
-   .header_bottominner .profile{ width:19%;}   
-   .header_right { width: 33%;} 
-     .product_header{width:95%;max-width:1024px;}
-   .you-icon{ margin-left: -60px;}
+    .header .search{	 width:35%; padding-top:56px;float:left;margin-right:20px;margin-left:-20px;}
+    .header .search label{display:inline;}
+    .header_bottominner .banner{ width:82%;padding-left: 20px;margin-left: -20px;}
+    .header_bottominner .profile{ width:19%;}   
+    .header_right { width: 33%;} 
+    .product_header{width:95%;max-width:1024px;}
+    .you-icon{ margin-left: -46px;}
    	.product_down a.download {width: 37%;}
 
 
     .header .header_left {padding-top: 35px;width: 25%;}
-    .header .card {border: 1px solid #D2D2D2; }
+    .header .card {border: 1px solid #D2D2D2; border-top: none;}
 }
 
 /* media Portrait (for medium desktop)*/
