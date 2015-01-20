@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/product_stylesheet.css">
 
     <!--js-->
     <script type="text/javascript" src="js/placeholders.min.js"></script>
@@ -50,7 +50,7 @@
                         </h2>
 
                         <div class="product_cart clsFloatRight">
-                            <a href="#">2 </a>
+                            <a href="#">9 </a>
                         </div>
                         <!--product_cart-->
                         <div class="search_product clsFloatRight">
@@ -67,8 +67,8 @@
                             </h2>
                             <h3>Las Vegas Convention Center                             
                             </h3>
-                            <h3>Las Vegas, Nevada
-                            </h3>
+                            <h4>Las Vegas, Nevada
+                            </h4>
                         </div>
                         <!--header_bottomleft-->
                         <div class="productheader_bottomright clsFloatRight">
@@ -134,7 +134,7 @@
                         <li>
                             <a href="#">Glossary  </a>
                         </li>
-                        <li>
+                        <li class="no-border">
                             <a href="#">Online Order Instructions  </a>
                         </li>
                     </ul>
@@ -147,99 +147,99 @@
                     <div class="margin-bottom20">
                         <h4>Flooring: 
                         </h4>
-                        <h6>Carpet                          
-                        </h6>
-                        <h6>Alternatives                           
-                        </h6>
-                        <h6>Vacume & Porter Services
-                        </h6>
+                        <a href="#"></a><h6>Carpet                          
+                        </h6></a>
+                        <a href="#"><h6>Alternatives                           
+                        </h6></a>
+                        <a href="#"><h6>Vacume & Porter Services
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="orange">Furnishings:
                         </h4>
-                        <h6>Performance Line
-                        </h6>
-                        <h6>Premier Line
-                        </h6>
-                        <h6>Signature Line
-                        </h6>
-                        <h6>Tables
-                        </h6>
-                        <h6>Chairs & Stools
-                        </h6>
-                        <h6>Comfort Seating
-                        </h6>
-                        <h6>Office
-                        </h6>
+                        <a href="#" class="orange"><h6>Performance Line
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Premier Line
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Signature Line
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Tables
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Chairs & Stools
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Comfort Seating
+                        </h6></a>
+                        <a href="#" class="orange"><h6>Office
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="green">Display: 
                         </h4>
-                        <h6>Exhibit Rentals
-                        </h6>
-                        <h6>Cases
-                        </h6>
-                        <h6>Graphics
-                        </h6>
-                        <h6>Accessories
-                        </h6>
+                        <a href="#" class="green"><h6>Exhibit Rentals
+                        </h6></a>
+                        <a href="#" class="green"><h6>Cases
+                        </h6></a>
+                        <a href="#" class="green"><h6>Graphics
+                        </h6></a>
+                        <a href="#" class="green"><h6>Accessories
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="green2">Hanging Sign:
                         </h4>
-                        <h6>Sign Rentals
-                        </h6>
-                        <h6>Rigging Equipment Rental
-                        </h6>
-                        <h6>Installation & Dimantle
-                        </h6>
+                        <a href="#" class="green2"><h6>Sign Rentals
+                        </h6></a>
+                        <a href="#" class="green2"><h6>Rigging Equipment Rental
+                        </h6></a>
+                        <a href="#" class="green2"><h6>Installation & Dimantle
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="green1">Material Handling: 
                         </h4>
-                        <h6>Rates
-                        </h6>
-                        <h6>Ground Rigging
-                        </h6>
-                        <h6>Authorization
-                        </h6>
-                        <h6>Q&A
-                        </h6>
-                        <h6>Storage
-                        </h6>
-                        <h6>Outbound Bill of Lading
-                        </h6>
-                        <h6>Outbound Shipping lables	
-                        </h6>
+                        <a href="#" class="green1"><h6>Rates
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Ground Rigging
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Authorization
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Q&A
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Storage
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Outbound Bill of Lading
+                        </h6></a>
+                        <a href="#" class="green1"><h6>Outbound Shipping lables	
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="blue">Shipping: 
                         </h4>
-                        <h6>Logistics Information
-                        </h6>
-                        <h6>Logistics Order Form
-                        </h6>
-                        <h6>Logistics Shipping Lables
-                        </h6>
+                        <a href="#" class="blue"><h6>Logistics Information
+                        </h6></a>
+                        <a href="#" class="blue"><h6>Logistics Order Form
+                        </h6></a>
+                        <a href="#" class="blue"><h6>Logistics Shipping Lables
+                        </h6></a>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="blue1">Labor: 
                         </h4>
-                        <h6>Order Form
+                        <a href="#" class="blue1"><h6>Order Form
                         </h6>
-                        <h6>Supervised Order Form
+                        <a href="#" class="blue1"><h6>Supervised Order Form
                         </h6>
                     </div>
                     <div class="margin-bottom20">
                         <h4 class="blue2">Utilities: 
                         </h4>
-                        <h6>Electrical
+                        <a href="#" class="blue2"><h6>Electrical
                         </h6>
-                        <h6>Plumbing & Air
+                        <a href="#" class="blue2"><h6>Plumbing & Air
                         </h6>
-                        <h6>Phone & Internet
+                        <a href="#" class="blue2"><h6>Phone & Internet
                         </h6>
-                        <h6>Additional
+                        <a href="#" class="blue2"><h6>Additional
                         </h6>
                     </div>
                 </div>
@@ -254,13 +254,13 @@
                     <div class="product_category">
                         
                         <div class="product_ctgy">
-                            <a href="#">product category</a>
+                            <a href="#">category 1</a>
                         </div>
                            <div class="product_ctgy">
-                            <a href="#">product category</a>
+                            <a href="#">category 2</a>
                         </div>
                            <div class="product_ctgy">
-                            <a href="#">product category</a>
+                            <a href="#">category 3</a>
                         </div>
                         
                     </div>
